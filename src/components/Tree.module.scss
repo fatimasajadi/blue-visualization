@@ -1,0 +1,31 @@
+.titleWrapper {
+  display: flex;
+  padding: 0.2em;
+  align-items: center;
+  cursor: pointer;
+
+  .title {
+    user-select: none;
+  }
+}
+
+.children {
+  padding-left: 1em;
+}
+
+.subtreeWrapper {
+  svg {
+    width: 0.8em;
+    height: 0.8em;
+    margin-right: 0.2em;
+  }
+}
+
+.collapsed {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
